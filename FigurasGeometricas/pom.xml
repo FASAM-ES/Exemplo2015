@@ -10,4 +10,27 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
+    
+    <distributionManagement>
+            <repository>
+                    <id>central</id>
+                    <name>Repositorio de Releases</name>
+                    <url>http://ci.fasam.info.tm/nexus/content/repositories/releases/</url>
+            </repository>
+            <snapshotRepository>
+                    <id>snapshots</id>
+                    <name>Repositório de Snapshots</name>
+                    <url>http://ci.fasam.info.tm/nexus/content/repositories/snapshots/</url>
+                    <uniqueVersion>true</uniqueVersion>
+            </snapshotRepository>
+    </distributionManagement>
+    
+    <dependencies>
+            <dependency>
+                    <groupId>junit</groupId>
+                    <artifactId>junit</artifactId>
+                    <version>3.8.1</version>
+                    <scope>test</scope>
+            </dependency>
+    </dependencies>
 </project>
