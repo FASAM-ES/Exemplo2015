@@ -36,7 +36,7 @@ public class Quadrado {
 
     public Integer calcularArea() {
         if(area == null || area == 0) {
-            area = lado/2;
+            area = lado*lado;
         }
         return area;
     }
