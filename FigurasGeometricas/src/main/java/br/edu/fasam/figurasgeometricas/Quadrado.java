@@ -21,7 +21,10 @@ public class Quadrado {
     public Integer getArea() {
         return area;
     }
-
+    /**
+     * Preenche o valor da area do quadrado
+     * @param area  Valor da area do quadrado
+     */
     public void setArea(Integer area) {
         this.area = area;
     }
