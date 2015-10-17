@@ -1,7 +1,7 @@
 package br.edu.fasam.figurasgeometricas;
 
 /**
- *
+ * Classe que representa um quadrado
  * @author Otávio
  */
 public class Quadrado {
@@ -14,6 +14,10 @@ public class Quadrado {
         this.lado = lado;
     }   
 
+    /**
+     * Retorna a area do quadrado
+     * @return Valor da area do quadrado
+     */
     public Integer getArea() {
         return area;
     }
